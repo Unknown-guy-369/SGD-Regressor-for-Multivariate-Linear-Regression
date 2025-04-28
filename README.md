@@ -8,17 +8,22 @@ To write a program to predict the price of the house and number of occupants in 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Import necessary libraries and load the California Housing dataset into a DataFrame.
+
+2. Set input features `X` and output targets `Y`, then split the data into training and testing sets.
+
+3. Standardize both features and targets using `StandardScaler`.
+
+4. Initialize `SGDRegressor` and wrap it with `MultiOutputRegressor`, then train the model.
+
+5. Predict on the test set, inverse transform the predictions, and calculate Mean Squared Error (MSE).
 
 ## Program:
 ```
 /*
 Program to implement the multivariate linear regression model for predicting the price of the house and number of occupants in the house with SGD regressor.
-Developed by: 
-RegisterNumber:  
+Developed by: Abishek Priyan M
+RegisterNumber: 212224240004
 */
 ```
 ```py
